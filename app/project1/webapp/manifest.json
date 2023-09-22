@@ -105,6 +105,8 @@
                         "settings": {
                             "entitySet": "Travel",
                             "variantManagement": "Page",
+                            
+                            
                             "navigation": {
                                 "Travel": {
                                     "detail": {

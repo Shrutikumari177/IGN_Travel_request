@@ -159,8 +159,12 @@ annotate service.Travel with @(
 annotate service.Travel with @(
     UI.SelectionFields : [
         EmpId_EmpId,
+        Travelstatus_Code,
     ]
 );
 annotate service.Travel with {
-    EmpId @Common.Label : 'EmpId_EmpId'
+    EmpId @Common.Label : '{i18n>Empid}'
+};
+annotate service.Travel with {
+    Travelstatus @Common.Label : 'Travelstatus'
 };

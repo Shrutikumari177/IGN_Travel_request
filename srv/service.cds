@@ -4,7 +4,7 @@ using db from '../db/schema';
 
 service TravelRequestService {
 
-    entity Travel as projection on db.Travel;
+    entity Travel as projection on db.Travel ;
 
     entity Employee as projection on db.Employee;
 
