@@ -3,6 +3,7 @@ using db from '../db/schema';
  
 
 service TravelRequestService {
+    @odata.draft.enabled
 
     entity Travel as projection on db.Travel ;
 
